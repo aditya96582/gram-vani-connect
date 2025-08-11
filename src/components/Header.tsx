@@ -24,10 +24,11 @@ const Header: React.FC<HeaderProps> = ({ onAdminClick }) => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-6">
-            <a href="#features" className="text-foreground hover:text-accent transition-colors">Features</a>
-            <a href="#pillars" className="text-foreground hover:text-accent transition-colors">Pillars</a>
+            <a href="/" className="text-foreground hover:text-accent transition-colors">Home</a>
+            <a href="/crop-detection" className="text-foreground hover:text-accent transition-colors">Crop Health</a>
+            <a href="/weather" className="text-foreground hover:text-accent transition-colors">Weather</a>
+            <a href="/market-prices" className="text-foreground hover:text-accent transition-colors">Market Prices</a>
             <a href="#about" className="text-foreground hover:text-accent transition-colors">About</a>
-            <a href="#contact" className="text-foreground hover:text-accent transition-colors">Contact</a>
           </nav>
 
           {/* Action Buttons */}
